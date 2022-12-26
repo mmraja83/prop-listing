@@ -722,6 +722,20 @@ input.form-control::-ms-input-placeholder {
 }
 
 .header .map-bg {
+  background: url(../img/placeholder/googlemap.png) no-repeat center center;
+  background-blend-mode: difference;
+  height: 100%;
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.map-bg-listing {
+  background: url(../img/placeholder/googlemaplisting.png) no-repeat center center;
+  background-blend-mode: difference;
   height: 100%;
   position: absolute !important;
   top: 0;
